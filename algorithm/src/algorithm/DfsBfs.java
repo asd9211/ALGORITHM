@@ -30,7 +30,7 @@ public class DfsBfs {
 	            st = new StringTokenizer(br.readLine());
 	            
 	            int node1 = Integer.parseInt(st.nextToken());  
-	            int node2 = Integer.parseInt(st.nextToken());  
+	            int node2 = Integer.parseInt(st.nextToken());   
 	             
 	            nodeList[node1].add(node2); 
 	            nodeList[node2].add(node1);
