@@ -17,7 +17,7 @@ public class DfsBfs {
 	        StringTokenizer st = new StringTokenizer(br.readLine());
 	        
 	        nodeCnt = Integer.parseInt(st.nextToken());
-	        int lineCnt = Integer.parseInt(st.nextToken());
+	        int lineCnt = Integer.parseInt(st.nextToken()); 
 	        int startNode = Integer.parseInt(st.nextToken());
 	        
 	        nodeList = new LinkedList[nodeCnt+1];
