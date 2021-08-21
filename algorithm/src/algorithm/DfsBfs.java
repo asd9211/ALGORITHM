@@ -21,7 +21,7 @@ public class DfsBfs {
 	        int startNode = Integer.parseInt(st.nextToken());
 	        
 	        nodeList = new LinkedList[nodeCnt+1];
-	        
+	         
 	        for(int i=0; i <= nodeCnt; i++) {
 	            nodeList[i] = new LinkedList<Integer>();
 	        }
